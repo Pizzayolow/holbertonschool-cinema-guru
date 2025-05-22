@@ -1,0 +1,61 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	background-color: black;
+	padding: 10px;
+	align-items: center;
+}
+
+.nav-right {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	margin-right: 20px;
+}
+
+.logout {
+	color: red;
+	cursor: pointer;
+}
+
+.avatar {
+	border-radius: 50%;
+	max-width: 100%;
+	height: 40px;
+	width: 40px;
+	border: solid 2px red;
+}
+
+.logout-icon {
+	margin-right: 5px;
+}
+
+.sidebar {
+	background-color: rgb(197, 0, 0);
+	width: 50px;
+	transition: width 0.3s ease;
+	height: 100%;
+	z-index: 1000;
+}
+
+.sidebar:hover {
+	width: 200px;
+}
+
+.page-navigation {
+	list-style: none;
+	margin-left: 15px;
+}
+
+
+.linktopage-button {
+	min-width: 200px;
+	text-align: left;
+	justify-content: start;
+	width: 100%;
+}
+
+.activity-list {
+	
+}

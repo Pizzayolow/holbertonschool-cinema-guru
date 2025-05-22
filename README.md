@@ -1,1 +1,1 @@
-# holbertonschool-cinema-guru
+# Cinema Guru Front-end
